@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CyberTech_X - Cutting-edge cybersecurity and technology tutorials">
+    <title>CyberTech_X - Tech & Tutorials</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset and basic styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        header {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #4caf50;
+        }
+
+        /* Main Content */
+        main {
+            padding-top: 80px;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        /* Introduction Section */
+        #introduction {
+            background-color: #fff;
+            padding: 60px 20px;
+            border-bottom: 2px solid #ddd;
+        }
+
+        #introduction p {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+
+        /* About Section */
+        #about {
+            background-color: #333;
+            color: white;
+            padding: 60px 20px;
+        }
+
+        #about p {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+
+        /* Video Section */
+        #videos {
+            background-color: #fff;
+            padding: 40px 20px;
+        }
+
+        .video {
+            margin: 20px auto;
+            max-width: 800px;
+            border: 1px solid #ddd;
+            background-color: #fafafa;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .video iframe {
+            width: 100%;
+            height: 450px;
+        }
+
+        .video p {
+            padding: 15px;
+            font-size: 1.1rem;
+        }
+
+        /* Contact Section */
+        #contact {
+            background-color: #4caf50;
+            color: white;
+            padding: 60px 20px;
+        }
+
+        #contact p, #contact a {
+            font-size: 1.2rem;
+        }
+
+        #contact a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        #contact a:hover {
+            text-decoration: none;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 10px 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            .video iframe {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>CyberTech_X - Tech & Tutorials</h1>
+        <nav>
+            <a href="#introduction">Introduction</a>
+            <a href="#about">About</a>
+            <a href="#videos">Videos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Introduction Section -->
+        <section id="introduction">
+            <h2>Welcome to CyberTech_X</h2>
+            <p>
+                Welcome to CyberTech_X, your ultimate destination for all things cybersecurity and technology! 🌐<br><br>
+
+                On this channel, we explore the latest trends in cybersecurity, bring you in-depth tutorials on ethical hacking, discuss data privacy issues, review cutting-edge tech gadgets, and much more. Whether you're a cybersecurity enthusiast, a tech professional, or simply curious about the digital world, you'll find valuable insights and practical knowledge here.<br><br>
+
+                Join our community of like-minded individuals who are passionate about staying ahead in the ever-evolving world of technology. Don't forget to subscribe and hit the bell icon so you never miss an update!<br><br>
+
+                🔒 Stay secure. Stay informed. Stay tuned to CyberTech_X! 🔍
+            </p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About CyberTech_X</h2>
+            <p>
+                CyberTech_X is dedicated to providing tutorials on Kali Linux, cybersecurity, and technology topics. 
+                Our goal is to help you become a tech-savvy problem solver with up-to-date knowledge and practical skills.
+            </p>
+        </section>
+
+        <!-- Videos Section -->
+        <section id="videos">
+            <h2>Latest YouTube Videos</h2>
+            
+            <!-- Embedded YouTube videos -->
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/9USap3KCuNA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>How to Enable Game Mode in Windows 10/11 | Boost Your Gaming Performance | ‪@CyberTech_X‬</p>
+            </div>
+
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/OF97__FBF6g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Ninvaders on Linux: Relive Space Invaders in the Terminal! ‪@CyberTech_X‬</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you have any questions or want to collaborate, feel free to reach out:</p>
+            <p>Email: <a href="mailto:janudasehash2010716@gmail.com">janudasehash2010716@gmail.com</a></p>
+            <p>Follow me on social media:</p>
+            <p><a href="https://www.youtube.com/@CyberTech_X" target="_blank">YouTube Channel</a></p>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 CyberTech_X. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
